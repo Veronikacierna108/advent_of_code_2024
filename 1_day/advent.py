@@ -18,9 +18,6 @@ def find_distance(list1,list2):
         result += abs(list1[i]- list2[i])
     print(result)
 
-
-
-
 #second part of problem
 def similalirity(list1,list2):
     parcial_result = {}
@@ -35,8 +32,6 @@ def similalirity(list1,list2):
     for i in  range(len(keys)):
         result += keys[i]* values[i]
     print(result) 
-
-
 
 #slovnik = similalirity(first_part,second_part)
 #keys = list(slovnik.keys())
